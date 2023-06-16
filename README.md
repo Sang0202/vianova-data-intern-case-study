@@ -12,3 +12,12 @@ You should answer as if you were writting production code within your team. You 
 
 Please send us the link to your github repository with the answer of the exercise. 
 
+# Overview
+1. Fetches data from the provided API endpoint.
+2. Creates a MySQL database to store the data fetched.
+3. Imports data to MySQL database.
+4. Perform a query to compute the result and saves it.
+5. Exports the results to tsv file.
+
+We can run automatically this program every week by setting a new Task Scheduler task on Windows or cron job on Linux.
+We can also schedule a task using Apache Airflow to update local MySQL database
